@@ -1,4 +1,6 @@
 try:
     x = int("abc")
 except ValueError:
-    print("Conversion failed")
+    print("Error")
+finally:
+    print("True")
