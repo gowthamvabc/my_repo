@@ -1,6 +1,4 @@
 try:
-  print("Hello")
-except:
-  print("Something went wrong")
-else:
-  print("Nothing went wrong")
+    x = int("abc")
+except ValueError:
+    print("Conversion failed")
